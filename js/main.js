@@ -1,9 +1,11 @@
 $(document).ready(function(){
   $('#myModal').modal('show');
-  $('#nav-icon1').click(function(){
+  $('#nav-icon-nav').click(function(){
     $(this).toggleClass('open');
   });
     $('#maior').click(function(){
       $('#myModal').modal('hide');
     });
   });
+
+  
